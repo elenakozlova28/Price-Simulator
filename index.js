@@ -6,8 +6,6 @@ const path = require('path');
 // Log file path
 const logFile = path.join(__dirname, 'task_scheduler_log.txt');
 
-
-
 // Function to log task execution
 function logTaskExecution(taskName) {
     const timestamp = new Date().toISOString();
