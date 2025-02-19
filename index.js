@@ -24,8 +24,6 @@ const tasks = [
     'Sync User Data'
 ];
 
-
-
 function getRandomTask() {
     return tasks[Math.floor(Math.random() * tasks.length)];
 }
